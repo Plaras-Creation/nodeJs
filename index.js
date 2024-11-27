@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.post('/test/:id', (req, res) => {
     console.log(req.body)
     const{sample} = req.body
-    res.json({"test":sample})
+    res.json({"test1":sample})
 })
 
 app.listen(port, () => {
